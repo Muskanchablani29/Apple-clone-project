@@ -1,0 +1,698 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.nav1 {
+    background-color: #F5F5F7;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+
+.nav2 a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.nav2 img {
+    height: 20px;
+    width: 20px;
+}
+
+.content1 {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.content1 p {
+    color: white;
+    font-size: 15px;
+}
+
+.content1 p a {
+    color: blue;
+    text-decoration: none;
+}
+
+.content1 p a:hover {
+    text-decoration: underline;
+}
+
+.content2 {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+}
+
+.content3 {
+    text-align: center;
+}
+
+.content3 h1 {
+    color: white;
+    height: 160px;
+}
+
+.content3 h3 {
+    color: white;
+}
+
+.button1 a {
+    font-size: 17px;
+    color: white;
+    padding: 17px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.button1 a:hover {
+    background-color: white;
+    color: #000000;
+}
+
+.content4 {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.built {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.built img {
+    position: absolute;
+    z-index: -1;
+}
+
+.sector3 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    height: 700px;
+}
+
+
+.text2 h3 {
+    color: #86868b;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    gap: 5%;
+}
+
+.btn1 {
+
+    background-color: #0071e3;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 21px;
+    padding-right: 21px;
+    border: 1px solid #0071e3;
+    border-radius: 20px;
+}
+
+.btn1 {
+    color: white;
+    text-decoration: none;
+}
+
+.btn2 {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 21px;
+    padding-right: 21px;
+    border: 1px solid #0071e3;
+    border-radius: 20px;
+}
+
+.btn2 {
+    color: #0071e3;
+    text-decoration: none;
+}
+
+.btn2:hover {
+    background-color: #0071e3;
+    color: white;
+}
+
+.sector4 {
+    background: linear-gradient(#0E134A, #222C74, #5461B1, #8C9DD9, #fff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content5 {
+    text-align: center;
+}
+
+.text3 h1 {
+    color: white;
+    font-size: 50px;
+    height: 60px;
+}
+
+.text3 h2 {
+    color: white;
+    font-size: 30px;
+    height: 60px;
+}
+
+.text4 {
+    font-size: 21px;
+    font-weight: 400;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image2 {
+    width: 100%;
+}
+
+.image2 img {
+    width: 700px;
+}
+
+.buttons2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sector5 {
+    background-color: #F5F5F7;
+}
+
+.content6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.apple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.apple img {
+    height: 50px;
+    width: 50px;
+}
+
+.apple h1 {
+    font-size: 40px;
+    height: 40px;
+}
+
+.apple2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.apple2 h4 {
+    height: 40px;
+    font-size: 22px;
+    color: #000000d8;
+    letter-spacing: 1.5px;
+}
+
+.apple2 p {
+    font-size: 30px;
+    height: 50px;
+}
+
+.apple2 h3 {
+    color: #86868b;
+    height: 40px;
+}
+
+.buttons3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.image3 img {
+    height: 300px;
+    width: 100%;
+}
+
+.content7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.image4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+}
+
+.image4 h1 {
+    color: white;
+}
+
+.section1 {
+    background-color: black;
+    height: 550px;
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.section2 {
+    background-image: url(Background1.jpg);
+    height: 550px;
+    width: 49%;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.apple3 h1 {
+    height: 60px;
+    font-size: 50px;
+}
+
+.txt4 {
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.txt5 {
+    color: grey;
+    height: 20px;
+}
+
+.buttons3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.apple3 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image5 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.image5 img {
+    height: 350px;
+    width: 600px;
+}
+
+.txt3 {
+    color: rgba(255, 68, 0, 0.773);
+    letter-spacing: 1px;
+    height: 30px;
+}
+
+.txt1 {
+    height: 40px;
+    font-size: 20px;
+}
+
+.txt2 {
+    color: grey;
+    height: 30px;
+}
+
+.buttons4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 90px;
+}
+
+.section3 {
+    background-image: url(airpodspro.jpg);
+    height: 550px;
+    width: 49%;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.section4 {
+    background-image: url(headphones.jpg);
+    background-size: cover;
+    height: 550px;
+    width: 49%;
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section4 h1 {
+    font-size: 40px;
+    height: 40px;
+}
+
+.txt6 {
+    height: 20px;
+    font-size: 20px;
+}
+
+.section3 h1 {
+    font-size: 40px;
+    height: 60px;
+}
+
+.txt7 {
+    text-align: center;
+
+}
+
+.buttons5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 80px;
+}
+
+.content9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.section6 {
+    background-image: url(promocard.jpg);
+    background-size: cover;
+    height: 550px;
+    width: 49%;
+    background-color: #F5F5F7;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.section6 h1 {
+    font-size: 40px;
+    height: 40px;
+}
+
+.txt6 {
+    height: 20px;
+    font-size: 20px;
+}
+
+.image6 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 80px;
+}
+
+.section5 {
+    background-image: url(promoimage.jpg);
+    height: 550px;
+    width: 49%;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section5 h1 {
+    font-size: 40px;
+    /* height: 80px; */
+    color: #000000;
+}
+
+.txt8 {
+    text-align: center;
+    height: 45px;
+}
+
+.section5 p {
+    color: black;
+    text-align: center;
+}
+
+.buttons6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100px;
+}
+
+.footer {
+    color: #F5F5F7;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.footer1 p {
+    color: grey;
+    font-size: 13px;
+    border-bottom: 1px solid grey;
+    padding: 0px 0px 20px;
+    letter-spacing: 0.5px;
+}
+
+.footer2 {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: flex-start;
+    height: 500px;
+
+}
+
+.foot1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.foot1 h5 {
+    color: black;
+}
+
+.foot1 a {
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+}
+
+.foot2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.foot2 h5 {
+    color: #000000;
+}
+
+.foot2 a {
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+}
+
+.foot3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.foot3 h5 {
+    color: #000000;
+}
+
+.foot3 a {
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+}
+
+.foot4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.foot4 h5 {
+    color: #000000;
+}
+
+.foot4 a {
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+}
+
+.foot5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.foot5 h5 {
+    color: #000000;
+}
+
+.foot5 a {
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+}
+
+.footer3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer3 p {
+    color: grey;
+    width: 1000px;
+    border-bottom: 1px solid grey;
+    height: 40px;
+    font-size: 13px;
+}
+
+.footer3 p a {
+    color: grey;
+    color: #64A0DE;
+    font-size: 13px;
+}
+
+.footer4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 40px;
+}
+
+.footer4 p {
+    color: grey;
+    font-size: 13px;
+}
+
+.con2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.con2 a {
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 13px;
+    border-left: 1px solid grey;
+    color: gray;
+}
